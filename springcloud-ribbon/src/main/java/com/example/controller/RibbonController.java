@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import com.example.service.RibbonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,13 +10,10 @@ import org.springframework.web.client.RestTemplate;
 public class RibbonController {
 
     @Autowired
-    private RestTemplate restTemplate;
+    private RibbonService service;
 
     @GetMapping("/ribbon")
     public String ribbon() {
-        String result = restTemplate.getForEntity("http://SPRINGCLOUD-HELLO/hello",String.class).getBody();
-        return result;
+        return service.ribbonService();
     }
-
-
 }
