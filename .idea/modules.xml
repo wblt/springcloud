@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-hello/springcloud-hello.iml" filepath="$PROJECT_DIR$/springcloud-hello/springcloud-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" />
     </modules>
