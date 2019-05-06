@@ -10,6 +10,7 @@
         <module name="springcloud-feign" />
         <module name="springcloud-hello" />
         <module name="springcloud-ribbon" />
+        <module name="springcloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="springcloud-feign" target="1.8" />
       <module name="springcloud-hello" target="1.8" />
       <module name="springcloud-ribbon" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="springcloud-feign" options="-parameters" />
       <module name="springcloud-hello" options="-parameters" />
       <module name="springcloud-ribbon" options="-parameters" />
+      <module name="springcloud-zuul" options="-parameters" />
     </option>
   </component>
 </project>
